@@ -86,6 +86,11 @@ app_license = "MIT"
 # 		"on_trash": "method"
 #	}
 # }
+doc_events = {
+	"Salary Slip": {
+		"on_cancel": "assetvalue.api2.sal_slip_checker",
+	}
+}
 
 # Scheduled Tasks
 # ---------------
